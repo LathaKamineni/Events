@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.events-registration-container {
+  display: flex;
+  padding: 5px;
+  min-height: 100vh;
+}
+.events-container {
+  background-color: #64748b;
+  width: 50vw;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.events-heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.events-list-container {
+  display: flex;
+  padding: 3px;
+  list-style-type: none;
+  flex-wrap: wrap;
+  width: 80%;
+}

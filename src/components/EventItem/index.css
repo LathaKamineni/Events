@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.event-container {
+  padding: 4px;
+  width: 110px;
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+  justify-content: space-between;
+}
+@media screen and (min-width: 768px) {
+  .event-container {
+    padding: 4px;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    margin: 4px;
+    margin-right: 100px;
+    justify-content: space-between;
+  }
+}
+.event-img-button{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+.event-img {
+  height: 70px;
+  width: 100px;
+}
+@media screen and (min-width: 768px) {
+  .event-img {
+    height: 100px;
+    width: 180px;
+  }
+}
+.event-name {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 13px;
+}
+.event-location {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 8px;
+  margin-top: -9px;
+}
